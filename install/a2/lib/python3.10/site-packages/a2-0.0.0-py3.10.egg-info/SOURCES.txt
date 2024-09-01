@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/a2/a2.egg-info/PKG-INFO
+../../build/a2/a2.egg-info/SOURCES.txt
+../../build/a2/a2.egg-info/dependency_links.txt
+../../build/a2/a2.egg-info/entry_points.txt
+../../build/a2/a2.egg-info/requires.txt
+../../build/a2/a2.egg-info/top_level.txt
+../../build/a2/a2.egg-info/zip-safe
+a2/__init__.py
+resource/a2
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

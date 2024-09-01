@@ -1,0 +1,20 @@
+[0.849s] Invoking command in '/home/kemo/colcon_ws/src/a2': PYTHONPATH=/home/kemo/colcon_ws/build/a2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemo/colcon_ws/install/a2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/a2 build --build-base /home/kemo/colcon_ws/build/a2/build install --record /home/kemo/colcon_ws/build/a2/install.log --single-version-externally-managed install_data
+[1.093s] running egg_info
+[1.093s] writing ../../build/a2/a2.egg-info/PKG-INFO
+[1.094s] writing dependency_links to ../../build/a2/a2.egg-info/dependency_links.txt
+[1.094s] writing entry points to ../../build/a2/a2.egg-info/entry_points.txt
+[1.094s] writing requirements to ../../build/a2/a2.egg-info/requires.txt
+[1.094s] writing top-level names to ../../build/a2/a2.egg-info/top_level.txt
+[1.097s] reading manifest file '../../build/a2/a2.egg-info/SOURCES.txt'
+[1.098s] writing manifest file '../../build/a2/a2.egg-info/SOURCES.txt'
+[1.098s] running build
+[1.098s] running build_py
+[1.098s] running install
+[1.098s] running install_lib
+[1.099s] running install_data
+[1.099s] running install_egg_info
+[1.101s] removing '/home/kemo/colcon_ws/install/a2/lib/python3.10/site-packages/a2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.101s] Copying ../../build/a2/a2.egg-info to /home/kemo/colcon_ws/install/a2/lib/python3.10/site-packages/a2-0.0.0-py3.10.egg-info
+[1.102s] running install_scripts
+[1.121s] writing list of installed files to '/home/kemo/colcon_ws/build/a2/install.log'
+[1.146s] Invoked command in '/home/kemo/colcon_ws/src/a2' returned '0': PYTHONPATH=/home/kemo/colcon_ws/build/a2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemo/colcon_ws/install/a2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/a2 build --build-base /home/kemo/colcon_ws/build/a2/build install --record /home/kemo/colcon_ws/build/a2/install.log --single-version-externally-managed install_data

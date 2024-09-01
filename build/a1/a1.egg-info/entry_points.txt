@@ -1,0 +1,4 @@
+[console_scripts]
+listener = a1.first_subscriber:main
+talker = a1.first_publisher:main
+

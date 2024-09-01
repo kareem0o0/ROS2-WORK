@@ -1,0 +1,33 @@
+[0.688s] Invoking command in '/home/kemo/colcon_ws/src/a1': PYTHONPATH=/home/kemo/colcon_ws/build/a1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/a1 build --build-base /home/kemo/colcon_ws/build/a1/build install --record /home/kemo/colcon_ws/build/a1/install.log --single-version-externally-managed install_data
+[0.922s] running egg_info
+[0.922s] writing ../../build/a1/a1.egg-info/PKG-INFO
+[0.922s] writing dependency_links to ../../build/a1/a1.egg-info/dependency_links.txt
+[0.922s] writing entry points to ../../build/a1/a1.egg-info/entry_points.txt
+[0.923s] writing requirements to ../../build/a1/a1.egg-info/requires.txt
+[0.923s] writing top-level names to ../../build/a1/a1.egg-info/top_level.txt
+[0.927s] reading manifest file '../../build/a1/a1.egg-info/SOURCES.txt'
+[0.928s] writing manifest file '../../build/a1/a1.egg-info/SOURCES.txt'
+[0.929s] running build
+[0.929s] running build_py
+[0.929s] copying a1/__init__.py -> /home/kemo/colcon_ws/build/a1/build/lib/a1
+[0.929s] copying a1/first_subscriber.py -> /home/kemo/colcon_ws/build/a1/build/lib/a1
+[0.929s] copying a1/first_publisher.py -> /home/kemo/colcon_ws/build/a1/build/lib/a1
+[0.929s] running install
+[0.929s] running install_lib
+[0.930s] copying /home/kemo/colcon_ws/build/a1/build/lib/a1/__init__.py -> /home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1
+[0.930s] copying /home/kemo/colcon_ws/build/a1/build/lib/a1/first_subscriber.py -> /home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1
+[0.930s] copying /home/kemo/colcon_ws/build/a1/build/lib/a1/first_publisher.py -> /home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1
+[0.931s] byte-compiling /home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1/__init__.py to __init__.cpython-310.pyc
+[0.931s] byte-compiling /home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1/first_subscriber.py to first_subscriber.cpython-310.pyc
+[0.931s] byte-compiling /home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1/first_publisher.py to first_publisher.cpython-310.pyc
+[0.932s] running install_data
+[0.932s] copying resource/a1 -> /home/kemo/colcon_ws/install/a1/share/ament_index/resource_index/packages
+[0.932s] copying package.xml -> /home/kemo/colcon_ws/install/a1/share/a1
+[0.932s] running install_egg_info
+[0.933s] removing '/home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.934s] Copying ../../build/a1/a1.egg-info to /home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1-0.0.0-py3.10.egg-info
+[0.935s] running install_scripts
+[0.952s] Installing listener script to /home/kemo/colcon_ws/install/a1/lib/a1
+[0.952s] Installing talker script to /home/kemo/colcon_ws/install/a1/lib/a1
+[0.953s] writing list of installed files to '/home/kemo/colcon_ws/build/a1/install.log'
+[0.970s] Invoked command in '/home/kemo/colcon_ws/src/a1' returned '0': PYTHONPATH=/home/kemo/colcon_ws/build/a1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/a1 build --build-base /home/kemo/colcon_ws/build/a1/build install --record /home/kemo/colcon_ws/build/a1/install.log --single-version-externally-managed install_data

@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.000104] (a1) JobQueued: {'identifier': 'a1', 'dependencies': OrderedDict()}
+[0.000132] (a1) JobStarted: {'identifier': 'a1'}
+[0.099464] (-) TimerEvent: {}
+[0.199694] (-) TimerEvent: {}
+[0.299903] (-) TimerEvent: {}
+[0.400182] (-) TimerEvent: {}
+[0.500503] (-) TimerEvent: {}
+[0.600857] (-) TimerEvent: {}
+[0.701350] (-) TimerEvent: {}
+[0.735913] (a1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/a1', 'build', '--build-base', '/home/kemo/colcon_ws/build/a1/build', 'install', '--record', '/home/kemo/colcon_ws/build/a1/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kemo/colcon_ws/src/a1', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'DXCB_FAKE_PLATFORM_NAME_XCB': 'true', 'LANGUAGE': '', 'USER': 'kemo', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kemo', 'OLDPWD': '/home/kemo/colcon_ws/src', 'D_DISABLE_RT_SCREEN_SCALE': '1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/deepin-terminal.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '1529', 'SYSTEMD_EXEC_PID': '1751', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '66072', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kemo/colcon_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kemo', 'WINDOWID': '0', 'JOURNAL_STREAM': '8:32574', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'USERNAME': 'kemo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kemo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kemo:@/tmp/.ICE-unix/1700,unix/kemo:/tmp/.ICE-unix/1700', 'INVOCATION_ID': '5b70107754f94985b23c631b27245e0f', 'QT_SCALE_FACTOR_ROUNDING_POLICY': 'PassThrough', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ar_EG.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LICVS2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kemo/colcon_ws/install/a1:/home/kemo/colcon_ws/install/my_addition_service:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kemo/colcon_ws/build/a1', 'QT_QPA_PLATFORM': '', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kemo/colcon_ws/build/a1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages:/home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages:/home/kemo/colcon_ws/install/first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/kemo/colcon_ws/install/my_addition_service'}, 'shell': False}
+[0.801463] (-) TimerEvent: {}
+[0.901697] (-) TimerEvent: {}
+[0.980306] (a1) StdoutLine: {'line': b'running egg_info\n'}
+[0.981013] (a1) StdoutLine: {'line': b'writing ../../build/a1/a1.egg-info/PKG-INFO\n'}
+[0.981291] (a1) StdoutLine: {'line': b'writing dependency_links to ../../build/a1/a1.egg-info/dependency_links.txt\n'}
+[0.981460] (a1) StdoutLine: {'line': b'writing entry points to ../../build/a1/a1.egg-info/entry_points.txt\n'}
+[0.981668] (a1) StdoutLine: {'line': b'writing requirements to ../../build/a1/a1.egg-info/requires.txt\n'}
+[0.981755] (a1) StdoutLine: {'line': b'writing top-level names to ../../build/a1/a1.egg-info/top_level.txt\n'}
+[0.984858] (a1) StdoutLine: {'line': b"reading manifest file '../../build/a1/a1.egg-info/SOURCES.txt'\n"}
+[0.985715] (a1) StdoutLine: {'line': b"writing manifest file '../../build/a1/a1.egg-info/SOURCES.txt'\n"}
+[0.985870] (a1) StdoutLine: {'line': b'running build\n'}
+[0.985935] (a1) StdoutLine: {'line': b'running build_py\n'}
+[0.986037] (a1) StdoutLine: {'line': b'copying a1/first _publisher.py -> /home/kemo/colcon_ws/build/a1/build/lib/a1\n'}
+[0.986296] (a1) StdoutLine: {'line': b'copying a1/first_subscriber.py -> /home/kemo/colcon_ws/build/a1/build/lib/a1\n'}
+[0.986586] (a1) StdoutLine: {'line': b'running install\n'}
+[0.986944] (a1) StdoutLine: {'line': b'running install_lib\n'}
+[0.987695] (a1) StdoutLine: {'line': b'copying /home/kemo/colcon_ws/build/a1/build/lib/a1/first _publisher.py -> /home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1\n'}
+[0.987871] (a1) StdoutLine: {'line': b'copying /home/kemo/colcon_ws/build/a1/build/lib/a1/first_subscriber.py -> /home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1\n'}
+[0.988415] (a1) StdoutLine: {'line': b'byte-compiling /home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1/first _publisher.py to first _publisher.cpython-310.pyc\n'}
+[0.988902] (a1) StdoutLine: {'line': b'byte-compiling /home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1/first_subscriber.py to first_subscriber.cpython-310.pyc\n'}
+[0.989204] (a1) StdoutLine: {'line': b'running install_data\n'}
+[0.989358] (a1) StdoutLine: {'line': b'copying package.xml -> /home/kemo/colcon_ws/install/a1/share/a1\n'}
+[0.989556] (a1) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.991455] (a1) StdoutLine: {'line': b"removing '/home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.991812] (a1) StdoutLine: {'line': b'Copying ../../build/a1/a1.egg-info to /home/kemo/colcon_ws/install/a1/lib/python3.10/site-packages/a1-0.0.0-py3.10.egg-info\n'}
+[0.992764] (a1) StdoutLine: {'line': b'running install_scripts\n'}
+[1.001801] (-) TimerEvent: {}
+[1.012221] (a1) StdoutLine: {'line': b'Installing listener script to /home/kemo/colcon_ws/install/a1/lib/a1\n'}
+[1.012417] (a1) StdoutLine: {'line': b'Installing talker script to /home/kemo/colcon_ws/install/a1/lib/a1\n'}
+[1.012727] (a1) StdoutLine: {'line': b"writing list of installed files to '/home/kemo/colcon_ws/build/a1/install.log'\n"}
+[1.032078] (a1) CommandEnded: {'returncode': 0}
+[1.051486] (a1) JobEnded: {'identifier': 'a1', 'rc': 0}
+[1.052046] (-) EventReactorShutdown: {}
