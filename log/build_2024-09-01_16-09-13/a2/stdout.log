@@ -1,0 +1,24 @@
+running develop
+Removing /home/kemo/colcon_ws/install/a2/lib/python3.10/site-packages/a2.egg-link (link to .)
+running egg_info
+writing ../../build/a2/a2.egg-info/PKG-INFO
+writing dependency_links to ../../build/a2/a2.egg-info/dependency_links.txt
+writing entry points to ../../build/a2/a2.egg-info/entry_points.txt
+writing requirements to ../../build/a2/a2.egg-info/requires.txt
+writing top-level names to ../../build/a2/a2.egg-info/top_level.txt
+reading manifest file '../../build/a2/a2.egg-info/SOURCES.txt'
+writing manifest file '../../build/a2/a2.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/kemo/colcon_ws/install/a2/lib/python3.10/site-packages/a2
+copying /home/kemo/colcon_ws/build/a2/build/lib/a2/__init__.py -> /home/kemo/colcon_ws/install/a2/lib/python3.10/site-packages/a2
+byte-compiling /home/kemo/colcon_ws/install/a2/lib/python3.10/site-packages/a2/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/a2 -> /home/kemo/colcon_ws/install/a2/share/ament_index/resource_index/packages
+copying package.xml -> /home/kemo/colcon_ws/install/a2/share/a2
+running install_egg_info
+Copying ../../build/a2/a2.egg-info to /home/kemo/colcon_ws/install/a2/lib/python3.10/site-packages/a2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kemo/colcon_ws/build/a2/install.log'

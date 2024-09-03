@@ -1,0 +1,22 @@
+[0.850s] Invoking command in '/home/kemo/ros2_ws/src/a1': PYTHONPATH=/home/kemo/ros2_ws/build/a1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemo/ros2_ws/install/a1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/a1 build --build-base /home/kemo/ros2_ws/build/a1/build install --record /home/kemo/ros2_ws/build/a1/install.log --single-version-externally-managed install_data
+[1.094s] running egg_info
+[1.094s] writing ../../build/a1/a1.egg-info/PKG-INFO
+[1.095s] writing dependency_links to ../../build/a1/a1.egg-info/dependency_links.txt
+[1.095s] writing entry points to ../../build/a1/a1.egg-info/entry_points.txt
+[1.095s] writing requirements to ../../build/a1/a1.egg-info/requires.txt
+[1.095s] writing top-level names to ../../build/a1/a1.egg-info/top_level.txt
+[1.097s] reading manifest file '../../build/a1/a1.egg-info/SOURCES.txt'
+[1.097s] writing manifest file '../../build/a1/a1.egg-info/SOURCES.txt'
+[1.097s] running build
+[1.098s] running build_py
+[1.098s] running install
+[1.098s] running install_lib
+[1.099s] running install_data
+[1.099s] running install_egg_info
+[1.101s] removing '/home/kemo/ros2_ws/install/a1/lib/python3.10/site-packages/a1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.101s] Copying ../../build/a1/a1.egg-info to /home/kemo/ros2_ws/install/a1/lib/python3.10/site-packages/a1-0.0.0-py3.10.egg-info
+[1.102s] running install_scripts
+[1.123s] Installing listener script to /home/kemo/ros2_ws/install/a1/lib/a1
+[1.123s] Installing talker script to /home/kemo/ros2_ws/install/a1/lib/a1
+[1.123s] writing list of installed files to '/home/kemo/ros2_ws/build/a1/install.log'
+[1.148s] Invoked command in '/home/kemo/ros2_ws/src/a1' returned '0': PYTHONPATH=/home/kemo/ros2_ws/build/a1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemo/ros2_ws/install/a1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/a1 build --build-base /home/kemo/ros2_ws/build/a1/build install --record /home/kemo/ros2_ws/build/a1/install.log --single-version-externally-managed install_data

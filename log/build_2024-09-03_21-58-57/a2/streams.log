@@ -1,0 +1,20 @@
+[0.860s] Invoking command in '/home/kemo/ros2_ws/src/a2': PYTHONPATH=/home/kemo/ros2_ws/build/a2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemo/ros2_ws/install/a2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/a2 build --build-base /home/kemo/ros2_ws/build/a2/build install --record /home/kemo/ros2_ws/build/a2/install.log --single-version-externally-managed install_data
+[1.078s] running egg_info
+[1.079s] writing ../../build/a2/a2.egg-info/PKG-INFO
+[1.079s] writing dependency_links to ../../build/a2/a2.egg-info/dependency_links.txt
+[1.079s] writing entry points to ../../build/a2/a2.egg-info/entry_points.txt
+[1.079s] writing requirements to ../../build/a2/a2.egg-info/requires.txt
+[1.080s] writing top-level names to ../../build/a2/a2.egg-info/top_level.txt
+[1.081s] reading manifest file '../../build/a2/a2.egg-info/SOURCES.txt'
+[1.081s] writing manifest file '../../build/a2/a2.egg-info/SOURCES.txt'
+[1.082s] running build
+[1.082s] running build_py
+[1.082s] running install
+[1.082s] running install_lib
+[1.083s] running install_data
+[1.083s] running install_egg_info
+[1.085s] removing '/home/kemo/ros2_ws/install/a2/lib/python3.10/site-packages/a2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.085s] Copying ../../build/a2/a2.egg-info to /home/kemo/ros2_ws/install/a2/lib/python3.10/site-packages/a2-0.0.0-py3.10.egg-info
+[1.086s] running install_scripts
+[1.104s] writing list of installed files to '/home/kemo/ros2_ws/build/a2/install.log'
+[1.131s] Invoked command in '/home/kemo/ros2_ws/src/a2' returned '0': PYTHONPATH=/home/kemo/ros2_ws/build/a2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kemo/ros2_ws/install/a2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/a2 build --build-base /home/kemo/ros2_ws/build/a2/build install --record /home/kemo/ros2_ws/build/a2/install.log --single-version-externally-managed install_data
