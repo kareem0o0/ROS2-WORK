@@ -619,7 +619,8 @@ plot_residuals_and_area(residuals, area_errors, times)
 
 #### Plots
 - **Interface Plot**: Shows the droplet interface (blue) and initial theoretical shape (green dashed line) every `plot_interval` steps.
-- **Residuals and Area Errors**: Plots of residuals and area errors over time, generated at the end of the simulation.
+- **Residuals and Area Errors**: Plots of residuals and area errors over time,.
+- 
 
 #### Progress Output
 Every 50,000 steps, the simulation prints:
@@ -813,9 +814,9 @@ Every 50,000 steps, the simulation prints:
     ```
 - **Curvature Accuracy**:
   - **Solution**: Increase grid resolution (e.g., $N_x = N_y = 400$).
-
 ---
-
+## Figures
+![nsequations](https://drive.google.com/file/d/17SwyksH_73JapNue6PnA25VtrZn_OcAr/view?usp=sharing)
 ## Conclusion
 
 This simulation provides a robust and flexible framework for modeling droplet dynamics using the Level Set Method and Navier-Stokes equations. It balances physical accuracy with numerical stability, making it suitable for studying droplet behavior under various forces. By tuning parameters and following the usage guidelines, users can achieve realistic results for a pinned droplet on a surface. Future improvements could include higher-order numerical schemes, advanced pressure solvers, and support for more complex force models.
